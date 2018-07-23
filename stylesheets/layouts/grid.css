@@ -1,0 +1,12 @@
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-top: 50px;
+}
+
+.grid .grid-item {
+	padding-left: 15px;
+	padding-right: 15px;
+}

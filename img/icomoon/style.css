@@ -1,0 +1,40 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-logo-half {
+  width: 1.9482421875em;
+}
+
+.icon-logo-jupiter {
+  width: 3.3115234375em;
+}
+
+.icon-logo-mars {
+  width: 4.0888671875em;
+}
+
+.icon-logo-moonpic {
+  width: 4.193359375em;
+}
+
+.icon-logo-rocket {
+  width: 3.6669921875em;
+}
+
+.icon-pen {
+  width: 0.974609375em;
+}

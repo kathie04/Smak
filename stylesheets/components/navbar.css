@@ -1,0 +1,24 @@
+.navbar-nav {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin-bottom: 0;
+	justify-content: center;
+}
+
+.navbar-nav li {
+	padding-left: 25px;
+}
+
+.navbar-nav li:not(:first-child):before {
+	content: '▪';
+	padding-right: 25px;
+	color: var(--global-muted-color);
+}
+
+.navbar-nav a{
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	font-weight: bold;
+}
+

@@ -1,0 +1,16 @@
+.card-team {
+	flex-direction: column;
+}
+
+.card-team h3 {
+	color: var(--global-muted-color);
+	margin-bottom: 0;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.card-team h4 {
+	margin-top: 0;
+	color: #707070;
+	font-weight: 400;
+}

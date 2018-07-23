@@ -1,0 +1,18 @@
+.card-contact {
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-contact svg {
+	font-size: 30px;
+}
+
+.card-contact h3 {
+	font-weight: 400;
+	color: #131316;
+}
+
+.card-contact p {
+	margin-top: 0;
+	color: #515151;
+}

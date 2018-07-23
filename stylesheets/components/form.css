@@ -1,0 +1,7 @@
+.section-form input, .section-form textarea {
+	margin-bottom: 30px;
+}
+
+.grid-form .grid-item {
+	width: calc(100%/3);
+}

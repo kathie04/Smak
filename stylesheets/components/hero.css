@@ -1,0 +1,25 @@
+.hero.inverse {
+	height: 950px;
+	background-color: var(--global-muted-background);
+	padding-top: 0;
+}
+
+.layout-hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.hero-content {
+	background-color: #122a2f;
+	width: 100%;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.hero h1 {
+	margin-bottom: 45px;
+}
+

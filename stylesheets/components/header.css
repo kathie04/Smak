@@ -1,0 +1,12 @@
+.header.inverse {
+	background-color: #122a2f;
+	padding-top: var(--global-margin);
+	padding-bottom: var(--global-margin);
+}
+
+.layout-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+

@@ -1,0 +1,18 @@
+.grid-counter .grid-item {
+	width: 25%;
+}
+
+.card-counter {
+	border: 1px solid var(--global-muted-color);
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.count {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.card-counter h4 {
+	color: var(--global-muted-color);
+}

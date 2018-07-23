@@ -1,0 +1,32 @@
+.card-about {
+	margin-bottom: 50px;
+}
+
+.card-about .card-image {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	background-color: var(--global-muted-color);
+	flex-shrink: 0;
+	margin-right: 30px;
+}
+
+.card-about .card-image svg {
+	margin-top: 50%;
+	font-size: 30px;
+	color: var(--global-inverse-color);
+	transform: translateY(-50%);
+}
+
+.card-about .card-content {
+	text-align: left;
+}
+
+.card-about h4 {
+	color: #515151;
+	margin-bottom: 0;
+}
+
+.card-about p {
+	margin-top: 5px;
+}

@@ -1,0 +1,48 @@
+section {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.section-portfolio {
+	position: relative;
+}
+
+.section-portfolio .button-scroll {
+	top: 0;
+}
+
+.section-portfolio .button {
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+.section-portfolio .button-scroll:hover {
+	background-color: #131316;
+	color: var(--global-muted-color);
+}
+
+.section-about {
+	padding-bottom: 10px;
+}
+
+.section-clients {
+	padding-bottom: 0;
+}
+.section-clients .list-clients {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.section-clients .list-clients svg {
+	font-size: 100px;
+}
+
+.section-clients .list-clients svg:hover {
+	color: var(--global-muted-color);
+}
+
+.section-contact {
+	padding-top: 0;
+}

@@ -1,0 +1,13 @@
+.heading p {
+	color: #666;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.heading hr {
+	border-color: var(--global-muted-color);
+	width: 170px;
+	border-width: 3px;
+	margin-right: auto;
+	margin-left: auto;
+}

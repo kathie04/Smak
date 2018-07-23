@@ -1,0 +1,24 @@
+.footer.inverse {
+	padding-top: 25px;
+	background-color: var(--global-secondary-background);
+	position: relative;
+	padding-bottom: 80px;
+}
+.layout-footer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.socials {
+	display: flex;
+	list-style: none;
+}
+
+.socials li:not(:last-child) {
+	padding-right: 15px;
+}
+
+.footer .button-scroll svg {
+	transform: rotate(180deg);
+}
