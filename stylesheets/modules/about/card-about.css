@@ -9,13 +9,14 @@
 	background-color: var(--global-muted-color);
 	flex-shrink: 0;
 	margin-right: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .card-about .card-image svg {
-	margin-top: 50%;
 	font-size: 30px;
 	color: var(--global-inverse-color);
-	transform: translateY(-50%);
 }
 
 .card-about .card-content {

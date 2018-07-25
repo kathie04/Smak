@@ -5,9 +5,16 @@
 }
 
 .slide-content {
-    background-color: var(--global-primary-background);
+  background-color: var(--global-primary-background);
   padding-top: 70px;
   padding-bottom: 90px;
+}
+
+.slider hr {
+  width: 170px;
+  border-color: var(--global-muted-color);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .slider-prev:hover svg, .slider-prev:focus svg, .slider-prev:active svg,
@@ -15,6 +22,10 @@
     color: var(--global-muted-color);
 }
 
+.flexslider:hover .flex-direction-nav .flex-prev {
+  left: 46%;
+  opacity: 1;
+}
 
 .flex-direction-nav .flex-prev {
   left: 46%;
@@ -38,21 +49,20 @@
   transition: none;
 }
 
-.flex-direction-nav .flex-next:hover,
-.flex-direction-nav .flex-prev:hover {
+.flex-direction-nav a.flex-next:hover,
+.flex-direction-nav a.flex-prev:hover {
   background-color: #131316;
 }
 
-.flex-direction-nav .flex-next:hover .flex-direction-nav .flex-next:before,
-.flex-direction-nav .flex-prev:hover .flex-direction-nav .flex-prev:before {
+a.flex-next:hover .flex-direction-nav a.flex-next:before,
+.flex-direction-nav a.flex-prev:hover .flex-direction-nav a.flex-prev:before {
   color: var(--global-muted-color);
 
 }
 
-.flex-direction-nav .flex-prev:before,
-.flex-direction-nav .flex-next:before  {
+.flex-direction-nav a.flex-prev:before,
+.flex-direction-nav a.flex-next:before  {
   font-family: 'icomoon';
-  display: block;
   content: '\e900';
   width: 30px;
   height: 30px;
@@ -62,7 +72,7 @@
 }
 
 .flex-direction-nav .flex-prev:before {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .flex-direction-nav .flex-next:before {
@@ -90,9 +100,3 @@
   background-color: var(--global-muted-color);
 }
 
-.slider hr {
-  width: 170px;
-  border-color: var(--global-muted-color);
-  margin-right: auto;
-  margin-left: auto;
-}

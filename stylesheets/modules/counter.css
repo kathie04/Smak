@@ -2,7 +2,7 @@
 	width: 25%;
 }
 
-.card-counter {
+.Counter_item {
 	border: 1px solid var(--global-muted-color);
 	padding-bottom: 30px;
 	padding-top: 30px;
@@ -13,6 +13,6 @@
 	font-weight: 700;
 }
 
-.card-counter h4 {
+.Counter_item h4 {
 	color: var(--global-muted-color);
 }

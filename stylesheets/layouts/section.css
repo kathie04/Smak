@@ -33,13 +33,19 @@ section {
 	display: flex;
 	list-style: none;
 	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.section-clients .list-clients a {
+	display: block;
+	height: 100%;
 }
 
 .section-clients .list-clients svg {
 	font-size: 100px;
 }
 
-.section-clients .list-clients svg:hover {
+.list-clients a:hover svg {
 	color: var(--global-muted-color);
 }
 
