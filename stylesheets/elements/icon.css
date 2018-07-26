@@ -28,3 +28,9 @@ svg[class*=" icon-"] {
 .icon-arrow {
   color: #fff;
 }
+
+
+.icon-S-Shape {
+  color: var(--global-muted-color);
+  font-size: 60px;
+}
