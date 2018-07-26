@@ -1,5 +1,10 @@
+.team-gallery {
+	margin-bottom: 70px;
+}
+
 .card-team {
-	flex-direction: column;
+	border-bottom: 1px solid #e1e6e6;
+	margin-bottom: 66px;
 }
 
 .card-team h3 {
@@ -13,4 +18,112 @@
 	margin-top: 0;
 	color: #707070;
 	font-weight: 400;
+	margin-bottom: 10px;
 }
+
+.team-gallery a:hover .card-team h3,
+.team-gallery a:hover .card-team h4 {
+	text-decoration: none;
+}
+
+.team-gallery .og-grid {
+	display: flex;
+}
+
+.team-gallery .og-grid > * {
+	width: calc(100%/4);
+} 
+
+.team-gallery img {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+.team-gallery .og-expander-inner {
+	max-width: 1200px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+}
+
+.team-gallery .og-expander {
+	background-color: var(--global-primary-background);
+	font-size: 16px;
+	height: 295px;
+}
+
+.team-gallery .og-expanded {
+	height: 587px;
+}
+
+.team-gallery .og-expander h3 {
+	color: var(--global-muted-color);
+	font-size: 20px;
+}
+
+.team-gallery .og-expander p {
+	color: var(--global-inverse-color);
+}
+
+.team-gallery .og-close {
+	width: 20px;
+	height: 20px;
+	right: 20%;
+	top: 65px;
+	z-index: 10;
+}
+
+.team-gallery .og-close:before, .team-gallery .og-close:after {
+	background-color: var(--global-inverse-color);
+	height: 2px;
+}
+
+.team-gallery .og-details {
+	width: 80%;
+}
+
+.team-gallery .og-fullimg {
+	width: 20%;
+}
+
+.team-gallery .og-loading {
+	display: none !important;
+}
+
+.team-gallery .og-grid li.og-expanded > a::after {
+	border-bottom-color: var(--global-primary-background);
+}
+
+
+.team-gallery .og-details a {
+	background-color: var(--global-primary-background);
+    font-size: 0;
+    letter-spacing: inherit;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    padding-right: 0;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 0;
+    outline: none;
+    width: 40px;
+    height: 40px;
+  }
+
+.team-gallery .og-details a:hover {
+   	background-color: var(--global-muted-color);
+  }
+
+
+
+.team-gallery .og-details a:before {
+	font-family: "icomoon";
+ 	content:  "\ea90";
+ 	font-size: 1rem;
+ 	color: #fff;
+ }

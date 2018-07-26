@@ -1,15 +1,21 @@
-.og-grid li {
-	margin: 0;
+.gallery img {
+
 }
-.grid-gallery img {
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+
+.gallery .og-expander {
+  height: 700px;
+}
+
+.gallery .og-grid {
+  font-size: 0;
 }
 
 
-.og-details a {
+.gallery .og-grid li {
+  margin: 0;
+}
+
+.gallery .og-details a {
 	font-family: var(--global-font-family);
 	background-color: var(--global-muted-color);
     font-weight: 700;
@@ -25,17 +31,17 @@
     max-width: 170px;
   }
 
-  .og-details a:hover {
+.gallery .og-details a:hover {
   	color: var(--global-muted-color);
   	background-color: var(--global-primary-background);
   	text-decoration: none;
   }
 
- .og-details a:before {
+.gallery .og-details a:before {
  	content: none;
  }
 
- .og-details h3 {
+.gallery .og-details h3 {
     font-weight: 400;
     font-size: 25px;
     padding: 0;
@@ -44,29 +50,49 @@
     text-transform: none;
 }
 
-.og-details {
-	display: flex;
-  flex-direction: column;
-  justify-content: center;
+.gallery .og-details {
+    margin-top: 65px;
 }
 
-.og-close {
+.gallery .og-close {
 	width: 20px;
 	height: 20px;
-	right: 70px;
+	right: 14%;
 }
 
-.og-close::before, .og-close::after {
+.gallery .og-close::before, .gallery .og-close::after {
 	background-color: var(--global-muted-color);
+  height: 2px;
 }
 
-.og-expander {
+.gallery .og-expander {
 	background-color: #fff;
 }
 
-.og-expander-inner {
+.gallery .og-expander-inner {
     padding: 20px 15px;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.gallery .og-grid li.og-expanded > a::after {
+  border-bottom-color: transparent;
+}
+
+.gallery .og-expander {
+  height: 495px;
+}
+
+.gallery .og-expanded {
+  height: 765px;
+}
+
+.og-fullimg {
+  width: 60%;
+}
+
+
+.og-details {
+  width: 40%;
 }
